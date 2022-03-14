@@ -1,0 +1,7 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ client.lastname }} {{ client.firstname }} possessions{% endblock %}
+
+{% block body %}
+    {{ dump(client) }}
+{% endblock %}
